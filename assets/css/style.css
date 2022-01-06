@@ -272,3 +272,10 @@ font-size: 24px;
   #button-voltar-topo.show {
     opacity: 1;
     visibility: visible; }
+
+    .cartao__info--visualizacao,
+    .cartao__info--tempo{
+        font-size: 15px;
+    }
+  
+ 
