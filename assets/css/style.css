@@ -217,3 +217,58 @@ font-size: 24px;
 .cartao__imagem--mobile{
     display: block;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(29, 35, 42);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 82%;
+    margin-top: 4%;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  #button-voltar-topo {
+    display: inline-block;
+    background-color: #0480DC;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transition: background-color .3s, 
+   opacity .5s, visibility .8s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000; }
+  
+  #button-voltar-topo::after {
+    content: "\e90d";
+    /* font-family: FontAwesome; */
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    color: #fff; }
+  
+  #button-voltar-topo:hover {
+    cursor: pointer;
+    background-color: blue !important; }
+  
+  #button-voltar-topo:active {
+    background-color: #555; }
+  
+  #button-voltar-topo.show {
+    opacity: 1;
+    visibility: visible; }
