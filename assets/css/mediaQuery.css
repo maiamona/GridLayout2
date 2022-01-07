@@ -259,7 +259,9 @@
    opacity .5s, visibility .8s;
     opacity: 0;
     visibility: hidden;
-    z-index: 1000; }
+    z-index: 1000; 
+    transform: rotate(180deg);
+}
   
   #button-voltar-topo::after {
     content: "\e90d";
@@ -520,7 +522,9 @@
    opacity .5s, visibility .8s;
     opacity: 0;
     visibility: hidden;
-    z-index: 1000; }
+    z-index: 1000; 
+    transform: rotate(180deg);
+}
   
   #button-voltar-topo::after {
     content: "\e90d";
