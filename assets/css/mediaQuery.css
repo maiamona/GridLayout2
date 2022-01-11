@@ -76,6 +76,7 @@
       "secao-videos secao-videos secao-videos"
       "produtos-recentes destaque-produto destaque-produto"
       "secao-produtos secao-produtos secao-produtos"
+      "secao-produtos2 secao-produtos2 secao-produtos2"
       ;
       column-gap: 32px;
       padding: 16px 60px;
@@ -179,6 +180,11 @@
       grid-area: videos-recentes;
   }
   
+  .videos-recentes2{
+      grid-area: videos-recentes2;
+      display: none;
+  }
+  
   .secao-videos{
       grid-area: secao-videos;
   }
@@ -193,6 +199,10 @@
   
   .secao-produtos{
       grid-area: secao-produtos; 
+  }
+  
+  .secao-produtos2{
+      grid-area: secao-produtos2; 
   }
 
   .dropdown {
@@ -353,6 +363,7 @@
       "secao-videos secao-videos secao-videos"
       "produtos-recentes destaque-produto destaque-produto"
       "secao-produtos secao-produtos secao-produtos"
+      "secao-produtos2 secao-produtos2 secao-produtos2"
       ;
       column-gap: 32px;
       padding: 16px 60px;
@@ -442,6 +453,11 @@
       grid-area: videos-recentes;
   }
   
+  .videos-recentes2{
+      grid-area: videos-recentes2;
+      display: none;
+  }
+  
   .secao-videos{
       grid-area: secao-videos;
   }
@@ -456,6 +472,10 @@
   
   .secao-produtos{
       grid-area: secao-produtos; 
+  }
+  
+  .secao-produtos2{
+      grid-area: secao-produtos2; 
   }
 
   .dropdown {
@@ -620,6 +640,8 @@
     "secao-videos secao-videos secao-videos"
     "produtos-recentes destaque-produto destaque-produto"
     "secao-produtos secao-produtos secao-produtos"
+    "videos-recentes2 secao-produtos2 secao-produtos2"
+    "rodape rodape rodape"
     ;
     column-gap: 32px;
     padding: 16px 60px;
@@ -709,6 +731,10 @@
     grid-area: videos-recentes;
 }
 
+.videos-recentes2{
+    grid-area: videos-recentes2;
+}
+
 .secao-videos{
     grid-area: secao-videos;
 }
@@ -723,6 +749,10 @@
 
 .secao-produtos{
     grid-area: secao-produtos; 
+}
+
+.secao-produtos2{
+    grid-area: secao-produtos2; 
 }
 
 .dropdown {
@@ -793,6 +823,15 @@
     opacity: 1;
     visibility: visible; }
 
+    .rodape {
+        background: #fdfdfd;
+        color: #333;
+        font-size: .8rem;
+        grid-area: rodape;
+        padding: 1rem;
+        text-align: center;
+
+    }
 }
 
 
