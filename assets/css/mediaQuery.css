@@ -72,11 +72,16 @@
       grid-template-columns: auto 1fr auto;
       grid-template-areas: 
       "titulo-pagina titulo-pagina titulo-pagina"
-      "destaque-video destaque-video videos-recentes"
-      "secao-videos secao-videos secao-videos"
-      "produtos-recentes destaque-produto destaque-produto"
-      "secao-produtos secao-produtos secao-produtos"
-      "secao-produtos2 secao-produtos2 secao-produtos2"
+    "destaque-video destaque-video videos-recentes"
+    "secao-videos secao-videos secao-videos"
+    "produtos-recentes destaque-produto destaque-produto"
+    "destaque-video2 destaque-video2 destaque-video2"/**/
+    "secao-produtos secao-produtos secao-produtos"
+    "destaque-video3 destaque-video3 destaque-video3"/**/
+    "secao-produtos2 secao-produtos2 secao-produtos2"
+    "destaque-video4 destaque-video4 destaque-video4"/**/
+    "destaque-video5 destaque-video5 destaque-video5"/**/
+    "rodape rodape rodape"
       ;
       column-gap: 32px;
       padding: 16px 60px;
@@ -173,8 +178,24 @@
   }
   
   .destaque-video{
-      grid-area: destaque-video;
-  }
+    grid-area: destaque-video;
+}
+
+.destaque-video2{/**/
+    grid-area: destaque-video2;
+}
+
+.destaque-video3{/**/
+    grid-area: destaque-video3;
+}
+
+.destaque-video4{/**/
+    grid-area: destaque-video4;
+}
+
+.destaque-video5{/**/
+    grid-area: destaque-video5;
+}
   
   .videos-recentes{
       grid-area: videos-recentes;
@@ -362,8 +383,13 @@
       "destaque-video destaque-video videos-recentes"
       "secao-videos secao-videos secao-videos"
       "produtos-recentes destaque-produto destaque-produto"
+      "destaque-video2 destaque-video2 destaque-video2"/**/
       "secao-produtos secao-produtos secao-produtos"
+      "destaque-video3 destaque-video3 destaque-video3"/**/
       "secao-produtos2 secao-produtos2 secao-produtos2"
+      "destaque-video4 destaque-video4 destaque-video4"/**/
+      "destaque-video5 destaque-video5 destaque-video5"/**/
+      "rodape rodape rodape"
       ;
       column-gap: 32px;
       padding: 16px 60px;
@@ -446,8 +472,24 @@
   }
   
   .destaque-video{
-      grid-area: destaque-video;
-  }
+    grid-area: destaque-video;
+}
+
+.destaque-video2{/**/
+    grid-area: destaque-video2;
+}
+
+.destaque-video3{/**/
+    grid-area: destaque-video3;
+}
+
+.destaque-video4{/**/
+    grid-area: destaque-video4;
+}
+
+.destaque-video5{/**/
+    grid-area: destaque-video5;
+}
   
   .videos-recentes{
       grid-area: videos-recentes;
@@ -639,8 +681,12 @@
     "destaque-video destaque-video videos-recentes"
     "secao-videos secao-videos secao-videos"
     "produtos-recentes destaque-produto destaque-produto"
+    "destaque-video2 destaque-video2 destaque-video2"/**/
     "secao-produtos secao-produtos secao-produtos"
+    "destaque-video3 destaque-video3 destaque-video3"/**/
     "videos-recentes2 secao-produtos2 secao-produtos2"
+    "destaque-video4 destaque-video4 destaque-video4"/**/
+    "destaque-video5 destaque-video5 destaque-video5"/**/
     "rodape rodape rodape"
     ;
     column-gap: 32px;
@@ -725,6 +771,22 @@
 
 .destaque-video{
     grid-area: destaque-video;
+}
+
+.destaque-video2{/**/
+    grid-area: destaque-video2;
+}
+
+.destaque-video3{/**/
+    grid-area: destaque-video3;
+}
+
+.destaque-video4{/**/
+    grid-area: destaque-video4;
+}
+
+.destaque-video5{/**/
+    grid-area: destaque-video5;
 }
 
 .videos-recentes{
